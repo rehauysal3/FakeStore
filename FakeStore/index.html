@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redstore | Ecom</title>
+    <!--Google Fonts  Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!--Google Fonts  Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <!--Css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+   <div id="header">
+       <!--Nav bar-->
+       <div class="container">
+           <div class="navbar">
+               <!--Logo-->
+               <div class="logo">
+                   <a href="index.html"><img src="images/logo.png" width="125px"></a>
+               </div>
+
+               <!--Nav-->
+               <nav>
+                   <ul id="MenuItems">
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="./HTML/product.html">Products</a></li>
+                       <li><a href="./HTML/about.html">About</a></li>
+                       <li><a href="./HTML/contact.html">Contact</a></li>
+                       <li><a href="./HTML/account.html">Account</a></li>
+                   </ul>
+               </nav>
+               <a href="./HTML/cart.html"><img id="cart" src="images/cart.png" alt="cart"></a>
+               <img id="cart" src="images/menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
+           </div>
+           <!--Hero Box-->
+           <div class="row">
+               <div class="col-2">
+                   <h1>Lorem ipsum <br>dolor sit amet !!</h1>
+                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. <br>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                   <a href="" class="btn">Show Now! &#10132;</a>
+               </div>
+
+               <div class="col-2">
+                   <img src="images/image1.png" alt="Hero Img">
+               </div>
+           </div>
+       </div>
+   </div>
+   
+   
+   
+   <!--Featured Product Section -->
+   <div class="small-container">
+       <h2 class="title">Featured Products</h2>
+       <div class="row">
+          <!--Product One-->
+           <div class="col-4"> 
+               <a href="./HTML/product-details.html"><img src="images/iphone11.png" alt="product"></a>
+               <h4>Iphone 11</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>$600.00</p>
+           </div>
+           
+           <!--Product Two-->
+           <div class="col-4"> 
+               <img src="images/iphone13.jpg" alt="product">
+               <h4>Iphone 13</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>$900.00</p>
+           </div>
+           
+           <!--Product Three-->
+           <div class="col-4"> 
+               <img src="images/samsunga52-2.png" alt="product">
+               <h4>Samsung A52</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>$600.00</p>
+           </div>
+           
+           <!--Product Four-->
+           <div class="col-4"> 
+               <img src="images/sasmunga71.png" alt="product">
+               <h4>Samsung A71</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>$750.00</p>
+           </div>
+       </div>
+       
+       <!--Leatest Products-->
+       <h2 class="title">Latest Products</h2>
+       
+       <div class="row">
+          <!--Product One-->
+           <div class="col-4"> 
+               <img src="images/redmipro.jpg" alt="product">
+               <h4>Redmi 9Pro</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>$30.00</p>
+           </div>
+           
+           <!--Product Two-->
+           <div class="col-4"> 
+               <img src="images/blackshar.jpg" alt="product">
+               <h4>Black Shark</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>$30.00</p>
+           </div>
+           
+           <!--Product Three-->
+           <div class="col-4"> 
+               <img src="images/appelwatch6.jpg" alt="product">
+               <h4>Apple Watch</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>$30.00</p>
+           </div>
+           
+           <!--Product Four-->
+           <div class="col-4"> 
+               <img src="images/samsungwatch.jpg" alt="product">
+               <h4>Samsung Watch 6</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>$30.00</p>
+           </div>
+           
+           <!--Product Five-->
+           <div class="col-4"> 
+               <img src="images/LGtelefon.jpg" alt="product">
+               <h4>LG Phone</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>$30.00</p>
+           </div>
+           
+           <!--Product Six-->
+           <div class="col-4"> 
+               <img src="images/oppoa54.png" alt="product">
+               <h4>Oppo A54</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>$30.00</p>
+           </div>
+           
+           <!--Product Seven-->
+           <div class="col-4"> 
+               <img src="images/oppoa74.png" alt="product">
+               <h4>Oppo A74</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>$30.00</p>
+           </div>
+           
+           <!--Product Eight-->
+           <div class="col-4"> 
+               <img src="images/xiaomik30.jpg" alt="product">
+               <h4>Xaomi K30</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>$30.00</p>
+           </div>
+       </div>
+       
+   </div>
+   <!--End ofFeatured Product Section -->
+   
+   
+   <!--Offer Product Section -->
+   <div class="offer">
+       <div class="small-container">
+           <div class="row">
+               <div class="col-2">
+                   <img class="offer-img" src="images/exclusive.png">
+               </div>
+               <div class="col-2">
+                   <p>Lorem Ipsum Dolor</p>
+                   <h1>Rolex </h1>
+                   <small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</small> <br>
+                   <a href="" class="btn">Buy Now &#10132;</a>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!--End of Ofer Product Section -->
+   
+   <!--Testimonial Section -->
+   <div class="testimonial">
+       <div class="small-container">
+           <div class="row">
+              <!--User One-->
+               <div class="col-3">
+                  <i class="fa fa-quote-left"></i>
+                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <img src="images/user-1.png" alt="user">
+                   <h3>Sirius Black</h3>
+               </div>
+               
+               <!--User Two-->
+               <div class="col-3">
+                  <i class="fa fa-quote-left"></i>
+                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <img src="images/user-2.png" alt="user">
+                   <h3>Carla Beuty</h3>
+               </div>
+               
+               <!--User Three-->
+               <div class="col-3">
+                  <i class="fa fa-quote-left"></i>
+                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <img src="images/user-3.png" alt="user">
+                   <h3>Angelica Burny</h3>
+               </div>
+               
+           </div>
+       </div>
+   </div>
+   <!--End of Testimonial Section -->
+   
+   <!--Brands Section -->
+   <div class="brands">
+       <div class="small-container">
+           <div class="row">
+               <div class="col-5">
+                   <img src="images/logo-coca-cola.png" alt="logo">
+               </div>
+               
+               <div class="col-5">
+                   <img src="images/logo-godrej.png" alt="logo">
+               </div>
+               
+               <div class="col-5">
+                   <img src="images/logo-oppo.png" alt="logo">
+               </div>
+               
+               <div class="col-5">
+                   <img src="images/logo-paypal.png" alt="logo">
+               </div>
+               
+               <div class="col-5">
+                   <img src="images/logo-philips.png" alt="logo">
+               </div>
+           </div>
+       </div>
+   </div>
+   <!--End of Brands Section -->
+   
+   <!--Footer Section -->
+   <div class="footer">
+       <div class="container">
+           <div class="row">
+              
+               <div class="footer-col-1">
+                   <h3>Download Our App</h3>
+                   <p>Download App for iOs and Android Mobile.</p>
+                   <div class="app-logo">
+                       <img src="images/play-store.png">
+                       <img src="images/app-store.png">
+                   </div>
+               </div>
+               
+               <div class="footer-col-2">
+                   <img src="images/logo-white.png">
+                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ligula eget dolor.</p>
+               </div>
+               
+               <div class="footer-col-3">
+                   <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                   </ul>
+               </div>
+               
+               <div class="footer-col-4">
+                   <h3>Follow Us</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>Twitter</li>
+                       <li>Instagram</li>
+                       <li>YouTube</li>
+                   </ul>
+               </div>
+           </div>
+           <hr>
+           <p class="copyright">Copyright 2020 - FakeStore</p>
+       </div>
+   </div>
+
+</body>
+</html>
+
